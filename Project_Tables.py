@@ -24,7 +24,16 @@ dataset['species'].replace(0, 'Iris-setosa',inplace=True)
 dataset['species'].replace(1, 'Iris-versicolor',inplace=True)
 dataset['species'].replace(2, 'Iris-virginica',inplace=True)
 
-# Plot Scatterplot comparing sepal length and width
+# http://benalexkeen.com/scatter-matrices-using-pandas/
+pd.scatter_matrix(dataset)
+plt.show()
+
+# Box and Whisker Plot
+dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+plt.show()
+
+
+# Scatterplot comparing sepal length and width
 plt.figure(4, figsize=(10, 8))
 
 plt.scatter(data[:50, 0], data[:50, 1], c='r', label='Iris-setosa')
@@ -62,3 +71,5 @@ fig = plt.figure(figsize = (8,8))
 ax = fig.gca()
 dataset.hist(ax=ax)
 plt.show()
+
+
