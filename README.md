@@ -1,6 +1,6 @@
 # Programme and Scripting Final Project
 
-## Background information about the data set and write a summary about it
+## Background information about the data set
 
 ### Iris Dataset 
 - https://archive.ics.uci.edu/ml/datasets/iris
@@ -15,7 +15,7 @@
 - https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
   - Published by Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
 
-### List of references you used in completing the project 
+### List of references used in completing the project 
 - https://archive.ics.uci.edu/ml/datasets/iris
 - https://en.wikipedia.org/wiki/Iris_flower_data_set
 - https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
@@ -24,4 +24,4 @@
 - https://www.datacamp.com/community/tutorials/introduction-machine-learning-python
 - http://benalexkeen.com/scatter-matrices-using-pandas/
 
-### Summary of your investigations 
+### Summary of investigations 
