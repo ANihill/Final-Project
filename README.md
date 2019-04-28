@@ -30,13 +30,13 @@ I then researched python code that could be applied to dataset, as seen in the r
 
 The next step was to run some basic code to get an overall feel for the data. I determined the shape of the data, (150,4), and ran ``(dataset.describe())`` to calculate the mean, standard deviation, min, and max of the dataset.
 
-       sepal-length | sepal-width | petal-length | petal-width
---- | --- | --- | --- | --- |
-count  |  150.000000  | 150.000000  |  150.000000  | 150.000000
-mean   |    5.843333  |   3.057333  |    3.758000  |   1.199333
-std    |    0.828066  |   0.435866  |    1.765298  |   0.762238
-min    |    4.300000  |   2.000000  |    1.000000  |   0.100000
-max    |    7.900000  |   4.400000  |    6.900000  |   2.500000
+|      | sepal-length | sepal-width | petal-length | petal-width |
+| ---- | ------------ | ----------- | ------------ | ----------- |
+| count|  150.000000  | 150.000000  |  150.000000  | 150.000000  |
+| mean |    5.843333  |   3.057333  |    3.758000  |   1.199333  |
+| std  |    0.828066  |   0.435866  |    1.765298  |   0.762238  |
+| min  |    4.300000  |   2.000000  |    1.000000  |   0.100000  |
+| max  |    7.900000  |   4.400000  |    6.900000  |   2.500000  |
 
 From here it was import to visualise the data. A scatterplot matrix was compiled in order to isolate relationships that supported Fisher's assertion that one of the species was linearly separable from the others.
 
