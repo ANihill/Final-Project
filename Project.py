@@ -1,7 +1,10 @@
-# import dataset from scikit
+# Adam Nihill, 28/04/2019
+# Investigation into Fisher's Iris Dataset
+
+# Import dataset from scikit
 from sklearn.datasets import load_iris
 
-# import libraries
+# Import required libraries 
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -36,11 +39,13 @@ print(dataset.groupby('species').size())
 # Used Pandas describe Module to summarise the data
 print(dataset.describe())
 
+# Generated a Scatterplot matrix
 # http://benalexkeen.com/scatter-matrices-using-pandas/
 pd.scatter_matrix(dataset)
 plt.show()
 
 # Histogram
+# https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram.html
 fig = plt.figure(figsize = (8,8))
 ax = fig.gca()
 dataset.hist(ax=ax)
@@ -80,5 +85,5 @@ plt.legend(prop={'size': 20})
 plt.show()
 
 # Box and Whisker Plot
-dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
-plt.show()
+#dataset.plot(kind='box', subplots=True, layout=(2,2), sharex=False, sharey=False)
+#plt.show()
