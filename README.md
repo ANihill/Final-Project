@@ -33,4 +33,4 @@ The next step was to run some basic code to get an over a feel for the data. I d
 
 From here it was import to visualise the data. A scatterplot matrix was compiled in order to isolate relationships that supported Fisher's assertion that one of the species was linearly separable from the others.
 
-[Scatter matrix]: https://github.com/ANihill/Final-Project/blob/master/Figure_5.png "Scatterplot Matrix"
+![Alt Text](https://github.com/ANihill/Final-Project/blob/master/Figure_5.png "Scatterplot Matrix")
