@@ -1,5 +1,13 @@
 # Programme and Scripting Final Project
 
+This repository contains an ivestigation into the Fisher Iris dataset as part of the final project for the module Programming and Scripting at GMIT.
+[See here for instructions.](https://github.com/ianmcloughlin/project-pands/raw/master/project.pdf)
+
+## Ensure that python is installed in order to run code
+
+## Download
+[Download Link](https://github.com/ANihill/Final-Project)
+
 ## Background information about the data set
 
 ### Iris Dataset 
