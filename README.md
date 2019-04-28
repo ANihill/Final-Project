@@ -51,3 +51,4 @@ The Sepal-Length vs. Sepal- width scatterplot demonstrates that the Iris Setosa 
 - https://www.kaggle.com/lalitharajesh/iris-dataset-exploratory-data-analysis/log
 - https://www.datacamp.com/community/tutorials/introduction-machine-learning-python
 - http://benalexkeen.com/scatter-matrices-using-pandas/
+- https://docs.scipy.org/doc/numpy/reference/generated/numpy.histogram.html
