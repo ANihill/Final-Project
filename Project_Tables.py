@@ -1,3 +1,7 @@
+# Adam Nihill, 28/04/2019
+# Investigation into Fisher's Iris Dataset
+# Tables and PLots
+
 # import dataset from scikit
 from sklearn.datasets import load_iris
 
