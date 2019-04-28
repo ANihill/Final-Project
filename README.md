@@ -34,3 +34,10 @@ The next step was to run some basic code to get an over a feel for the data. I d
 From here it was import to visualise the data. A scatterplot matrix was compiled in order to isolate relationships that supported Fisher's assertion that one of the species was linearly separable from the others.
 
 ![Alt Text](https://github.com/ANihill/Final-Project/blob/master/Figure_5.png "Scatterplot Matrix")
+
+Two relationships demonstrated a strong correlation to Fishers statement; Petal-Width and Petal-Length, and more obviously,
+Sepal-Width and Sepal-Length.
+
+![Alt Text](https://github.com/ANihill/Final-Project/blob/master/Figure_2.png "Petal-Length vs. Petal-Width")
+
+![Alt Text](https://github.com/ANihill/Final-Project/blob/master/Figure_1.png "Sepal-Length vs. Sepal-Width")
