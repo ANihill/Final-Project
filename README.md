@@ -15,7 +15,7 @@
 - https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
   - Published by Ronald Fisher in his 1936 paper The use of multiple measurements in taxonomic problems as an example of linear discriminant analysis.
 
-### Summary of investigations 
+## Summary of investigations 
 Investigation into the data began with research on Fisher's dataset itself. This was done to better understand the data that it contained. Fisher's dataset contained information on three Iris species, Iris Setosa, Iris Versicolor, and Iris Virginica. Four features, petal length and width, and sepal length and width, were measured on fifty samples of each species. Fisher determined that one of the species was linearly separable from the other two.
 
 I then researched python code that could be applied to dataset, as seen in the references below. I first ran this code through the iPython interpreter to become familiar with its output. I determined that the libraries required to do this were Pandas, NumPy, and MatPlotLib, as well as SciKit, which was used to load that dataset. Some manipulation of the data was required in order to improve legibility. This involved extracting the class labels and combining them with the dataset. Then Pandas was used to add a column with the attibute names, petal length, petal width, sepal length and sepal width, as well as replacing the number values with the species with the species. 
@@ -35,7 +35,7 @@ Sepal-Width and Sepal-Length.
 
 The Sepal-Length vs. Sepal- width scatterplot demonstrates that the Iris Setosa is laterally separable from the other two species.
 
-### List of references used in completing the project 
+## List of references used in completing the project 
 - https://archive.ics.uci.edu/ml/datasets/iris
 - https://en.wikipedia.org/wiki/Iris_flower_data_set
 - https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1469-1809.1936.tb02137.x
